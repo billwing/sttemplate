@@ -1,0 +1,37 @@
+{
+    "code": 1, 
+    "msg": "成功", 
+    "response": [
+        {
+            "id": "1", 
+            "name": "张三", 
+            "columns": [
+                {
+                    "html": "column 1"
+                },
+                {
+                    "html": "column 2"
+                },
+                {
+                    "html": "column 3"
+                }
+            ]
+        }, 
+        {
+            "id": "2", 
+            "name": "李四", 
+            "columns": [
+                {
+                    "html": "column 11"
+                },
+                {
+                    "html": "column 21"
+                },
+                {
+                    "html": "column 31"
+                }
+            ]
+        }
+    ], 
+    "ts": 1378862845
+}

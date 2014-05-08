@@ -1,0 +1,92 @@
+/*! 
+ * @name: STTemplate
+ * @overview: STTemplate Details
+ * @author: tbrweb@gmail.com
+ * @create: 2013-11-08
+ * @revise: 2013-11-08
+ */
+
+/*
+ * @name: 重置
+ * @overview: 样式重置
+ * @require: null
+ */
+.x-list .x-list-item .x-list-item-body,
+.x-list .x-list-item.x-list-item-tpl .x-innerhtml {
+    padding: 0;
+}
+
+/*
+ * @name: 消息
+ * @overview: 消息框
+ * @require: null
+ */
+ .x-msgbox .x-title {
+    font-weight: normal;
+}
+.x-msgbox {
+    min-width: 14em;
+    margin: .5em;
+    border: 0.15em solid #D0237C;
+    background-color: #FFF;
+}
+.x-msgbox .x-innerhtml {
+    font-size: 14px;
+    color: #000;
+}
+.x-toolbar-dark .x-button, .x-toolbar .x-toolbar-dark .x-button, .x-toolbar-dark .x-field-select .x-component-outer, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer, .x-toolbar-dark .x-field-select .x-component-outer:before, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer:before {
+    color: #000;
+}
+.x-msgbox .x-toolbar .x-button.x-button-action {
+    color: #FFF;
+    border: none;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ed217c),to(#702c91));
+    background-image: -webkit-linear-gradient(top,#ed217c,#702c91);
+    background-image: -moz-linear-gradient(top,#ed217c,#702c91);
+    background-image: -ms-linear-gradient(top,#ed217c,#702c91);
+    background-image: -o-linear-gradient(top,#ed217c,#702c91);
+}
+.x-msgbox .x-toolbar .x-button.x-button-pressing {
+    color: #000;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fcfcfc),to(#d1d2d3));
+    background-image: -webkit-linear-gradient(top,#fcfcfc,#d1d2d3);
+    background-image: -moz-linear-gradient(top,#fcfcfc,#d1d2d3);
+    background-image: -ms-linear-gradient(top,#fcfcfc,#d1d2d3);
+    background-image: -o-linear-gradient(top,#fcfcfc,#d1d2d3);
+}
+.x-msgbox .x-field .x-field-input {
+    left: 0px;
+    width: 100%;
+    border: 1px solid #CCC;
+    border-radius: 0;
+}
+.x-panel.x-floating {
+    font-size: 14px;
+    background-color: #D0237C;
+}
+
+/*
+ * @name: 全局
+ * @overview: 全局通用
+ * @require: null
+ */
+html, body {
+    font-family: "Microsoft Yahei", \5b8b\4f53;
+    text-align: center;
+    background-color: #EEE;
+}
+.global-wid {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    background: #EEE;
+}
+.mt10 {
+    margin-top: 10px;
+}
+
+/*
+ * @name: Main
+ * @overview: 首页
+ * @require: null
+ */
