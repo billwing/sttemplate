@@ -1,0 +1,4 @@
+sttemplate
+==========
+
+Sencha Touch Template
